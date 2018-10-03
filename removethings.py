@@ -9,18 +9,13 @@ employees = client["employees"]
 emps = employees['emps']
 
 # create a query variable
-query1 = {"fname":"john"}
+query1 = {"fname":"brent"}
 
-# use that variable against a collection stored in a new variable to iterate over
-empdoc = emps.find(query1)
+# delete a document based on the query created above.
+emps.delete_one(query1)
 
-for e in empdoc:
-    print(e)
-
-# a more complex query
-# query2 = {"salary":{"$gt":150000}}
+# delete documents based on more complex parameters
+# query2 = {"fname":{"$regex":"^j"}}
+# x = emps.delete_many(query2)
 #
-# emppay = emps.find(query2)
-#
-# for e in emppay:
-#     print(e)
+# print(x.deleted_count, "documents deleted")
