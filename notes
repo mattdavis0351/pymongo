@@ -1,3 +1,20 @@
+setup
+Install python 3.7
+Install node.js LTS
+Install postman
+
+pymongo:
+command prompt:
+pip install pymongo
+
+
+
+to start js webservice for get/post/put requests
+Command Prompt:
+npm install -g nodemon
+npm run start
+
+
 Cover scripts in the following order:
 
 1: newdb.py
