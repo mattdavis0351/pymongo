@@ -1,16 +1,27 @@
 CHALLENGE 1:
 
 Use what you have learned to add 4 superheroes to the superheroes database:
-  Loop through a list of 4 superheroes and add each of them to the database
+  Loop through a list of 4 superheroes and add each of them to the existing
+  collection.
 
 Use what you have learned to query our superheroes database:
   Write 4 to 5 interesting queries that return JSON objects.
 
+
+  ______________________________________________________________________________
+
+
 CHALLENGE 2:
+
 Use what you have learned to delete only the superheroes who have last names that
   start with a letter equal to or higher in the alphabet than "P"
 
+
+________________________________________________________________________________
+
+
 CHALLENGE 3: (using only python)
+
 Use what you have learned to scrape data that you find interesting using stocks.py
   from the provided API.
 Store this data in a new Mongo database.
