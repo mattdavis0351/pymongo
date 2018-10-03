@@ -8,14 +8,21 @@ employees = client["employees"]
 # connect to a collection in a database
 emps = employees['emps']
 
-# query the collection for a single docuemnt
-single = emps.find_one()
-print(single)
+# create a query variable
+query1 = {"fname":"john"}
 
-# query the colleciton for all documents:
-# for d in emps.find():
-#     print(d)
+# use that variable against a collection stored in a new variable to iterate over
+empdoc = emps.find(query1)
 
-# query the collection for specific documents
-# for d in emps.find({"fname":"brent"}):
-#     print(d)
+for e in empdoc:
+    print(e)
+
+# a more complex query
+query2 = {"salary":{"$gt":150000}}
+
+emppay = emps.find(query2)
+
+for e in emppay:
+    print(e)
+
+    
