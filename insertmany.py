@@ -20,6 +20,8 @@ goodguys = [
 "metal", "money", "microcomputers"]}
 {"fname":"clint", "lname":"barton", "alias":"hawkeye", "interests":[
 "archery", "birds", "flying"]}
+{"fname":"matt", "lname":"davis", "alias":"fat turtle", "interests":[
+"shells", "strawberries", "pizza"]}
 {"fname":"wanda", "lname":"maximoff", "alias":"scarlet witch", "interests":[
 "fire", "halloween", "the force"]}
 {"fname":"natasha", "lname":"romanoff", "alias":"black widow", "interests":[
